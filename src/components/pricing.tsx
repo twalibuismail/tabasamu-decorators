@@ -2,7 +2,6 @@ import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
 import { Button } from "@heroui/button";
 import { Chip } from "@heroui/chip";
 import { Divider } from "@heroui/divider";
-import { Link } from "@heroui/link";
 
 export const Pricing = () => {
   // Data za Vifurushi
@@ -69,9 +68,7 @@ export const Pricing = () => {
 
           <CardFooter>
             <Button
-              as={Link}
-              href={`https://wa.me/255746555500?text=Habari, nahitaji kifurushi cha ${plan.name}`}
-              isExternal
+              onPress={() => window.open(`https://wa.me/255746555500?text=Habari, nahitaji kifurushi cha ${plan.name}`, '_blank')}
               className="w-full font-semibold"
               color={plan.isPopular ? "primary" : "default"}
               variant={plan.isPopular ? "shadow" : "bordered"}

@@ -94,9 +94,7 @@ export const Navbar = () => {
       <NavbarContent justify="end">
         <NavbarItem>
           <Button
-            as={Link}
-            href={whatsappLink}
-            isExternal
+            onPress={() => window.open(whatsappLink, '_blank')}
             className="bg-[#B76E79] text-white font-bold shadow-lg shadow-[#B76E79]/40"
             radius="full"
             variant="shadow"

@@ -61,7 +61,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-bold text-black">Tupate Mitandaoni</h4>
             <div className="flex flex-col gap-2 text-sm">
-              <p>📞 +255 700 000 000</p>
+              <p>📞 +255 746 555 500</p>
               <p>📍 Dar es Salaam, Tanzania</p>
               <p>✉️ info@tabasamu.co.tz</p>
             </div>
